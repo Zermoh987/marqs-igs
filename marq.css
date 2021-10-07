@@ -5,8 +5,7 @@ background-color: rgb(243, 243, 253);
 .container{
     background-color: rgb(243, 243, 253);
 }
-.container table{
-   font-size: 16px;
+nav{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input[type="button"]{
@@ -16,6 +15,7 @@ input[type="button"]{
     cursor: pointer;
     background-color: white;
     font-size: 16px;
+    margin-left: 40px;
 }
 input[type="submit"]{
     height: 60px;
@@ -37,16 +37,15 @@ input[type="submit"]{
 .text{
     font-size: 25px;
 }
-table{
-    border-spacing: 30px;
-    font-size: 20px;
-    width: 100%;
+li{
+  list-style: none;
+  display: inline;
+  padding: 20px;
 }
 a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: black;
-    margin-left: 10%;
 }
 input[type="button"]:hover{
     background-color: rgb(72, 93, 136);
